@@ -2,13 +2,29 @@
 <html>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="basico.js"></script>
+	<link rel="stylesheet" type="text/css" href="basico.css">
 <head>
 	<title>Basico</title>
 </head>
 <body>
-	<div>
-		
-	</div>
+	<header class = "head">
+		<div >
+			<img src="beauty.jpg" alt="Smiley face"/>
+		</div>
+	</header>
+
+	<form action="#" id="form">
+	  Nome:<br>
+	  <input type="text" name="firstname" value="Mickey">
+	  <br>
+	  Senha:<br>
+	  <input type="text" name="lastname" value="Mouse">
+	  <br><br>
+	  <input type="submit" value="Enviar">
+	  <button type="button" value="Cancelar" onClick="#">
+	</form> 
+
+	<script src="controller/UserController.js"></script>
+	<script src="index.js"></script>
 </body>
 </html>
